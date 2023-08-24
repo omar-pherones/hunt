@@ -1,0 +1,174 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    #nav_bhar .navbar-brand a img {
+        width: 80px !important;
+    }
+    #nav_bar button i {
+        color: #fff;
+        outline: none;
+        box-shadow: none;
+        font-size: 16px;
+    }
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+    .navbar-toggler {
+        border: none;
+        border-radius: none;
+    }
+    #nav_bar .main_menu {
+        background-color: red;
+        padding: 20px 0px;
+        background-color: #fec600;
+    }
+    #nav_bar .main_menu li a {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    #nav_bar .main_menu li a:hover {
+        color: #353533;
+    }
+    #nav_bar .main_menu li a.active {
+        color: #353533;
+    }
+    #nav_bar .main_menu li a::before {
+        display: none;
+    }
+    #nav_bar .main_menu li a::after {
+        display: none;
+    }
+    /* banner start here  */
+    #banner .banner-text-block h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    #banner .banner-text-block h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    #banner .banner-text-block p {
+        width: auto;
+    }
+    #banner .banner-text-block .bannner-btn a {
+        padding: 10px 17px;
+    }
+    #banner .banner_image_1 {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    #banner .banner-text-block .bannner-btn {
+        margin-top: 35px;
+    }
+    .section-headding {
+        margin-bottom: 40px;
+    }
+    .section-headding h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .section-headding p {
+        width: auto;
+    }
+    .offset-4 {
+        margin-left: 0;
+    }
+
+    .about_item {
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: left !important;
+    }
+    #about .about_item.top::after {
+        display: none;
+    }
+    #about .about_item.top::before {
+        display: none;
+    }
+    .about_item h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .about_item p {
+        font-size: 14px;
+    }
+    #about .about_item.item_1::before {
+        display: none;
+    }
+    #about .about_item.item_1::after {
+        display: none;
+    }
+    #about .about_item.item_3::before {
+        display: none;
+    }
+    #about .about_item.item_3::after {
+        display: none;
+    }
+    #about .about_item.bottom::before {
+        display: none;
+    }
+    #about .about_item.bottom::after {
+        display: none;
+    }
+    #about .item_2 {
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #about .item_2 .about-image {
+        width: 200px;
+    }
+    #about .item_2 .about-image img {
+        width: 200px;
+        height: 200px;
+    }
+    /* portofolio start here  */
+    .portofolio-image {
+        margin-bottom: 25px;
+    }
+    /* services start  */
+    #services .services-item {
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    #services .services-item .left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    #services .services-item .midel {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #services .services-item .right {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #services .serives-line-shap {
+        height: 462px;
+        top: 291px;
+    }
+    #services .services-item .midel .services-image {
+        width: 50px;
+        height: 50px;
+    }
+    #services .services-item .midel .services-image img {
+        height: 25px;
+    }
+    #services .services-item p {
+        padding: 40px 25px;
+    }
+    #services .services-item:nth-child(2n) .right p::after {
+        display: none;
+    }
+    #services .services-item:nth-child(2n + 1) .right p::before {
+        display: none;
+    }
+}
